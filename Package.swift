@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "Zoomy", targets: ["Zoomy"])
     ],
     dependencies: [
-        .package(url: "https://github.com/microcheese/InjectableLoggers.git", from: "develop"),
+        .package(url: "https://github.com/microcheese/InjectableLoggers.git", branch: "develop"),
     ],
     targets: [
         .target(
